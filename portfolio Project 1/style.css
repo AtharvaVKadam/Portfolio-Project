@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Generic Sans Serif", sans-serif;
+  box-sizing: border-box;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+}
+#main{
+    width: 100%;
+    
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#h3{
+    color: white;
+   
+}
+
+#heading{
+    color : white;
+    padding : 22px 40px;
+    text-transform: uppercase;
+}
+
+#Product{
+    font-size: 190px;
+    margin-bottom: -50px;
+    font-weight: 550;
+    opacity: 0.6;
+}
+
+#Designer{
+    padding-left: 210px;
+    padding-top: 0px;
+    font-size: 190px;
+    margin-bottom: -20px;
+    font-weight: 550;
+    opacity: 0.6;
+}
+
+#Base{
+    font-size: medium;
+    text-align: right;
+    padding-right: 580px;
+}
+
+#footer{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 2%;
+    padding: 0 2vw;
+    width: 100%;
+
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#footer .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#second{
+    width: 100%; 
+    background-color: #000;
+    padding-top: 700px;
+    padding-right: 10%;
+    padding-left: 3%;
+    color : white;
+}
+
+.elem{
+    position: relative;
+    width: 100%;
+    border-top: #888 solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem h1{
+    font-size: 120px;
+    padding: 80px 0;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.elemlast{
+    border-bottom: #888 solid 1px ;
+}
+
+.elem img{
+    height: 150%;
+    display: none;
+    z-index: 999;
+    position : absolute;
+}
+
+#about{
+    color: white;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10vw 10vw;
+    gap: 50px;
+    padding-left: 40vw;
+}
+
+#imageabout{
+    border-radius: 50%;
+    background-image: url(Profile.jpeg);
+    background-size:cover;
+    padding: 8vw ;
+}
+
+#textabout{
+    width: 25rem;
+}
+
+#textabout h5{
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+#textabout a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 100px;
+    border: 1px solid #888;
+    font-size: 12px;
+}
+
+#subscribe{
+    color: white;
+    background-color: #000;
+    text-transform: uppercase;
+    padding-left: 3%;
+    padding-bottom: 150px;
+}
+
+#subscribe h5{
+    opacity: 0.6;
+}   
+#subscribe h4{
+    font-size: 20x;
+}
+
+#footer2{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    background-color: #000;
+}
+
+#footerleft{   
+    display: flex;
+    gap: 50px;
+}
+
+#footerright{
+    display: flex;
+    gap: 50px;
+    font-size: medium;
+}
+
+#footerright a{
+    text-decoration: none;
+    color: white;
+}
